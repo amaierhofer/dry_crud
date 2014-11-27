@@ -5,6 +5,38 @@
 dry_crud generates simple and extendable controllers, views and helpers that support you to DRY up the CRUD code in your Rails projects. List, search, sort, show, create, edit and destroy any model entries in just 5 minutes. Start with these artifacts and build a clean base to efficiently develop your application upon.
 
 
+{<h2 id="documentation">Table of Contents</h2>}[#]
+
+
+- {Installation}[#label-Installation]
+- {Integration}[#label-Integration]
+- {Background}[#label-Background]
+- {Examples}[#label-Examples]
+  - {Controller with CRUD functionality}[#label-Controller+with+CRUD+functionality]
+    - {Customize single views}[#label-Customize+single+views]
+    - {Adapt general behavior}[#label-Adapt+general+behavior]
+    - {Special formatting for selected attributes}[#label-Special+formatting+for+selected+attributes]
+    - {Sorting and filtering the index list}[#label-Sorting+and+filtering+the+index+list]
+  - {Standard Tables and Forms}[#label-Standard+Tables+and+Forms]
+    - {Tables}[#label-Tables]
+    - {Forms}[#label-Forms]
+  - {Nested Resources}[#label-Nested+Resources]
+  - {CRUD controller callbacks}[#label-CRUD+controller+callbacks]
+  - {Internationalization (I18N)}[#label-Internationalization]
+  - {Example Code}[#label-Example+Code]
+- {Generated Files}[#label-Generated+Files]
+  - {Controller}[#label-Controller]
+  - {Helpers}[#label-Helpers]
+  - {Views}[#label-Views]
+    - {List}[#label-List]
+    - {Crud}[#label-Crud]
+    - {Various}[#label-Various]
+  - {Tests}[#label-Tests]
+  - {Specs}[#label-Specs]
+
+
+
+
 == Installation
 
 Create your Rails application directly with the dry_crud application template:
@@ -236,7 +268,7 @@ In <tt>app/controllers/people_controller.rb</tt>:
   end
 
 
-=== Internationalization (I18N)
+=== Internationalization
 
 All text strings used are externalized to an english locale yaml. The keys are organized by controller and template name plus a generic global scope.
 
